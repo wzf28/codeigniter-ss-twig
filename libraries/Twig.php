@@ -7,6 +7,7 @@
  * @copyright  2015 Kenji Suzuki
  * @link       https://github.com/kenjis/codeigniter-ss-twig
  */
+defined('BASEPATH') OR exit('No direct script access allowed');
 
 // If you don't use Composer, uncomment below
 /*
@@ -41,7 +42,7 @@ class Twig
 	private $functions_safe = [
 		'form_open', 'form_close', 'form_error', 'form_hidden', 'set_value',
 //		'form_open_multipart', 'form_upload', 'form_submit', 'form_dropdown',
-//		'set_radio',
+//		'set_radio', 'set_select', 'set_checkbox',
 	];
 
 	/**
